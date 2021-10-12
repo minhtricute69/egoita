@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:egoita/utility/responsive.dart';
 
-class TitleBar extends  StatefulWidget{
+class TitleBar extends  StatelessWidget{
   TitleBar({Key ?key}) : super(key: key);
 
   @override
@@ -9,6 +9,7 @@ class TitleBar extends  StatefulWidget{
     return ResponsiveUI(
       mobile: AppBar(), 
       tablet: AppBar(), 
-      pc: AppBar());
+      pc: AppBar()
+    );
   }
 }
